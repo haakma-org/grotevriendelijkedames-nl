@@ -4,7 +4,7 @@ BASE_PATH=`pwd`
 
 source ${BASE_PATH}/utils/read_configuration.sh
 
-read_config "/home/config/gvd.properties"
+read_config "/home/config/gvd_site.properties"
 
 DATE=`date +%Y-%m-%d`
 BASE_DIR=/home/backup/grotevriendelijkedames.nl/today
