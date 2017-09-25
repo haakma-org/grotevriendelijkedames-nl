@@ -33,7 +33,7 @@ pipeline {
     }
     failure {
       slackSend channel: '#backup',
-                color: 'RED',
+                color: '#FF0000',
                 message: "The backup <${env.BUILD_URL}|${env.JOB_NAME}> | #${env.BUILD_NUMBER} has failed."
     }
   }
