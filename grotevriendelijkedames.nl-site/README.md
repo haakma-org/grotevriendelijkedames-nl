@@ -3,7 +3,6 @@
 ## Apache configuration
 
 ## Backup
-
-I a Jenkins job. View jenkins.haakma.org to check the status.
+View jenkins.haakma.org to check the status.
 
 

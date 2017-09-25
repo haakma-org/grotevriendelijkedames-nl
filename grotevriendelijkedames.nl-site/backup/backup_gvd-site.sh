@@ -1,6 +1,8 @@
 #!/bin/bash
 
-. ../../utils/read_configuration.sh
+BASE_PATH=`pwd`
+
+source ${BASE_PATH}/utils/read_configuration.sh
 
 read_config "/home/config/gvd.properties"
 
