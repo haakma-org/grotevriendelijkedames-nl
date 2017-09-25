@@ -14,7 +14,7 @@ pipeline {
     }
     stage('Backup grotevriendelijkedames.nl') {
       steps {
-        echo "Backup haakma.org"
+        echo "Backup grotevriendelijkedames.nl"
         sh "./grotevriendelijkedames.nl-site/backup/backup_gvd-site.sh"
       }
     }
